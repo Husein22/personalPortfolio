@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website-Husein Cisic</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script src="https://kit.fontawesome.com/8b7c97590e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" style="background-image: url(images/matri.jpg);">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software engener</p>
+                <h1>Hi,I'm  <span>Husein</span><br> Cisic from Bosnia</h1>
+            </div>
+        </div>
+    </div>
+   <!------------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/whiteBack.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About me</h1><br><p>
+                        In my academic journey at the Polytechnic Faculty in Zenica, I've embraced a comprehensive curriculum in software engineering, culminating in the successful 
+                        defense of my thesis on integrating machine learning algorithms into object-oriented software.
+                         My proficiency spans database management, where I've navigated Microsoft SQL Server and
+                          MongoDB to optimize data processes. Programming fluency in languages like C++, Java, Python,
+                           and JavaScript, coupled with expertise in frameworks like Spring and Flask, underscores my 
+                           ability to craft dynamic solutions. Complementing my technical skills is a proactive 
+                           approach to continuous learning and growth, evident in my engagement with personal 
+                           projects and online communities. This selection showcases not only my technical acumen
+                            but also my passion for innovation and my readiness to tackle challenges in the dynamic 
+                            field of software engineering.                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contens active-tab" id="skills">
+                        <ul>
+                            <li> <span>Programing language</span><br>Java,Python,C#,Dart,C++</br></li>
+                            <li> <span>Data structures and algorithms</span><br>Java,Python,C#,Dart,C++</br></li>
+                            <li> <span>Data managment</span><br>Microsoft SQL Server,MongoDB, MySQL</br></li>
+                                
+                            
+                            <li> <span>Web Development</span><br> HTML/CSS, PHP, FLASK, JavaScript</br></li>
+                            <li> <span>App Development</span><br>Flutter,React</br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contens" id="education">
+                        <ul>
+                            <li> <span>2016-2020</span><br>Medicial High School in Zenica</br></li>
+                            <li> <span>2020-2024</span><br>University: Polytechnic University in Zenica</br>
+                                Program: Bachelor of Science in Software Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!------------services--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+            <div >
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Desing</h2>
+                <p> I thrive on blending creativity with functionality to craft visually appealing and
+                     user-friendly interfaces. Proficient in HTML/CSS, PHP, Python(with framework FLASK), 
+                     JavaScript, Java(with framework SpringBoot), I leverage my skills to create engaging online 
+                     experiences that seamlessly integrate form and function.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div >
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Desing</h2>
+                <p>I combine user-centric principles with cutting-edge technology to develop intuitive
+                     and impactful mobile solutions. Proficient in frameworks like Flutter and React Native,
+                      I specialize in creating cross-platform applications that deliver seamless user experiences
+                       across devices. With a keen eye for detail and a focus on usability, I ensure that every
+                        aspect of the app enhances functionality and user satisfaction.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div >
+                <i class="fa-solid fa-database"></i>
+                <h2>Data </h2>
+                <p>I excel in optimizing data handling processes to ensure efficient storage, retrieval, 
+                    and analysis. Proficient in databases such as Microsoft SQL Server, MySQL, and MongoDB,
+                     I have a track record of implementing robust solutions to meet diverse data needs. 
+                     From designing database architectures to implementing data security measures, 
+                     I leverage my technical expertise to maintain data integrity and accessibility. With a 
+                    strong foundation in database management, I am equipped to tackle complex data challenges .</p>
+                <a href="#">Learn more</a>
+            </div>
+    </div>
+
+    </div>
+</div>
+
+
+
+   <!------------portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://images.raidboxes.io/raidboxes.io/uploads/2019/10/webdesigner-zukunft-.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://images.raidboxes.io/raidboxes.io/uploads/2019/10/webdesigner-zukunft-.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="https://images.raidboxes.io/raidboxes.io/uploads/2019/10/webdesigner-zukunft-.jpg" alt="">
+                </div>
+            </div>
+    </div>
+</div>
+
+
+   <!------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fas fa-paper-plane"></i>husein.cisic01@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +387 62 633 075</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/husein.cisic"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/c_hus2/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/husein-%C4%8Di%C5%A1i%C4%87-7b3308203/"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="images/CV HuseinCisic.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div  class="contact-right">
+                <form action="" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required >
+                <input type="email" name="Email" placeholder="Your email" required >
+                <textarea name="Message" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        
+    </div>
+    <div class="copyright">
+        <p>© 2024 Husein Cisic </p>
+    </div>
+</div>
+
+
+
+
+
+
+<script type="text/javascript" src="news.js"></script>
+
+   
+</body>
+</html>
